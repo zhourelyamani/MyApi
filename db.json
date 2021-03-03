@@ -1,6 +1,19 @@
 {
-"nomAdmin": "foo",
-"imageAdmin": "bar",
-"emailAdmin": "rida@test.com"
-
+  "data": [{
+    "type": "articles",
+    "id": "1",
+    
+    "relationships": {
+      "author": {
+        "data": {"id": "42", "type": "people"}
+      }
+    }
+  }],
+  "included": [
+    {
+      "type": "people",
+      "id": "42"
+      
+    }
+  ]
 }
