@@ -1,21 +1,13 @@
 {
   "squadName": "Super hero squad",
   "homeTown": "Metro City",
-  "formed": 2016,
-  "secretBase": "Super tower",
-  "active": true,
+  
   "members": [
    
     {
       "name": "Eternal Flame",
       "age": 1000000,
-      "secretIdentity": "Unknown",
-      "powers": [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
+    }
       ]
     }
   ]
